@@ -44,7 +44,7 @@
         </div>
         <!--Div-->
     </nav>
-    <article class="container mt-3">
+    <!-- <div class="container alert-container">
         <div class="row d-none d-sm-block">
             <div class="col-12">
                 <div class="alert alert-warning">
@@ -52,24 +52,29 @@
                 </div>
             </div>
         </div>
-        <!-- Callout -->
-         <div class="row">
+    </div> -->
+    <!-- Callout -->
+    <div class="container-fluid callout-container">
+        <div class="opaque-overlay">&nbsp;</div>
+        <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
-                    <h1>The finest whiskeys delivered to your doorstep.</h1>
+                    <h1 class="jumbotron-header">The finest whiskeys delivered to your doorstep.</h1>
+                    <hr class="block-divider block-divider--orange">
                     <p class="lead">Sign up today to start receiving the world's best whiskeys every month. 
                     <s class="d-none d-sm-inline">€19.99</s>
                     <span class="d-inline d-sm-none"><br></span>
                     <strong><mark>First one is free!</strong></mark></p>
-                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUpModal">Sign Up Now!</button>
+                    <button class="btn btn--cta btn-lg btn--red" data-toggle="modal" data-target="#signUpModal">Sign Up Now!</button>
                     <p class="text-muted"><small>You must be over 18 to sign up to our service. Please, drink responsibly.</small></p>
                 </section>
             </div>
         </div>
         <!-- /.callout -->
-        <hr>
+    </div>
 
-        <!-- Quotes -->
+    <!-- Quotes -->
+    <div class="container quotes-container">
         <section class="quotes">
                 <div class="row">
                     <div class="col-12 my-5">
@@ -106,9 +111,10 @@
                 </div>
         </section>
         <!-- /.quotes -->
-        <hr>
+    </div>
 
-        <!-- Features -->
+    <!-- Features -->
+    <div class="features-container">
         <section class="features">
             <div class="row">
                 <div class="col-12 my-5">
@@ -139,8 +145,9 @@
                 </div>
             </div>
         </section>
-        <!-- /.features -->
-    </article>
+    <!-- /.features -->
+    </div>
+    
 
     <!-- Modal: in page overlay; lunched when user clicks a button. -->
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
