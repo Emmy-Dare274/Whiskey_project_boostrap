@@ -2,6 +2,8 @@
 
 ## Welcome to Whiskey Drop Project
 
+[Click here for live view](https://emmy-dare274.github.io/Whiskey_project_boostrap/)
+
 Introducing the Whiskey Drop Project
 
 Hello everyone,
